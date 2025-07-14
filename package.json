@@ -1,0 +1,32 @@
+{
+  "name": "signalk-gps-filter",
+  "version": "1.0.0",
+  "description": "Filters GPS data based on maximum possible speed between consecutive positions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "gps",
+    "filter",
+    "nmea2000",
+    "navigation"
+  ],
+  "author": "Martin Verges <martin@verges.cc>",
+  "license": "MIT",
+  "homepage": "https://github.com/MartinVerges/signalk-gps-filter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinVerges/signalk-gps-filter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MartinVerges/signalk-gps-filter/issues"
+  },
+  "signalk": {
+    "plugin": true
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
